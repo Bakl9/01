@@ -1,0 +1,16 @@
+
+.header {
+  grid-area:v;
+  background-color: rgba(32, 30, 28, 0.333);
+   
+}
+
+
+.over {
+  grid-area:over;
+  background-color: rgba(221, 196, 149, 0.76);
+}
+
+.over img {
+  width: 50px;
+}
