@@ -15,10 +15,8 @@ export const MyPost = () => {
      message ='Hello'
      like =' like 20'
     />
-    
     <Post message='Mb pro'/>
-    
-  </>
+    </>
   )
 }
 
