@@ -1,5 +1,8 @@
 import React from 'react'
-import s from './Content.module.css'
+import s from './Profile.module.css'
+import { MyPost } from './MyPost/MyPost'
+
+
 
 export const Content = () => {
 
@@ -12,22 +15,10 @@ export const Content = () => {
     <div>
       ava + desc
     </div>
-    <div>
-      My post
-    </div>
-    <div>
-      New Post
-    </div>
-    <div>
-      <div className={s.nav_item}>
-        post 1
-      </div>
-      <div className={s.nav_item}>
-        post 2 
-      </div>
-    </div>
+    <MyPost/>
   </div>
 
   )
 }
 
+ 

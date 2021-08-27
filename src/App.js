@@ -1,7 +1,8 @@
 import './App.css';
-import { Content } from './component/Content'
-import { Header } from './component/Header'
-import { Navbar } from './component/Navbar'
+import { Content } from './component/Profile/Profile'
+import { Header } from './component/Header/Header'
+import { Navbar } from './component/navBar/Navbar'
+
 
 function App() {
   return (
