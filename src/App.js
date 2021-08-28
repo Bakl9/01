@@ -7,7 +7,7 @@ import { Dialogs } from './component/Dialogs/Dialogs';
 
 
 
-
+  
 function App() {
   return (
     <div className='app-wrapper'>
