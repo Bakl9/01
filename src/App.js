@@ -2,7 +2,7 @@ import './App.css';
 import { Content } from './component/Profile/Profile'
 import { Header } from './component/Header/Header'
 import { Navbar } from './component/navBar/Navbar'
-import { Dialogs } from './component/Dialogs/Dialogs';
+import { Dialogs } from './component/Dialogs/Dialogs'
  
 
 
