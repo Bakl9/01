@@ -1,1 +1,9 @@
 
+.content img {
+	height: 200px;
+	width: 1000px;
+}
+
+.nav_item {
+	color: rgba(212, 223, 223, 0.561);
+}
