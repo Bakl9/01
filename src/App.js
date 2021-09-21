@@ -6,15 +6,16 @@ import  Dialogs  from './component/Dialogs/Dialogs'
 import { Route, BrowserRouter } from 'react-router-dom'
 
 
-function App() {
+function App(props) {
+
 	return (
     <BrowserRouter>
 		<div className="app-wrapper">
 			<Header />
 			<Navbar />
 			<div className="venom">
-    <Route path='/dialogs' component={Dialogs}/>
-    <Route path='/profiler' component={Profiler}/>			
+	<Route path='/dialogs' render={ () => <Dialogs state={props.state.messagePage} />}/>
+    <Route path='/profiler' render={ () => <Profiler state={props.state.profilePage} />}/>			
 			</div>
 		</div>
     </BrowserRouter>

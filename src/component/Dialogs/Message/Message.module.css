@@ -4,17 +4,7 @@
 }
 
 .item_dialog .active{
-	color: rgb(127, 189, 56);
-}
-
-img {
-	width: 20px;
-	height: 20px;
-}
-
-.Dialogs_dialogs__y8tne{
-	display: inline;
-	padding: 30px;
+    color: rgb(127, 189, 56);
 }
 
 .dialog{
