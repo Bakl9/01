@@ -5,7 +5,7 @@ let state = {
 		people: [
 			{ name: 'Dmitry', id: 0 },
 			{ name: 'Olya', id: 1 },
-			{ name: 'Tomy', id: 2 },
+			{ name: 'Tomy', id: 2 }, 
 			{ name: 'Oliver', id: 3 },  
 			{ name: 'Kot', id: 4 },
 		], 
