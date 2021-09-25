@@ -7,4 +7,4 @@ export const  Header = () => {
         <img src='https://upload.wikimedia.org/wikipedia/commons/5/59/Logo-Logo.svg'></img>
       </header>
     )
-}. 
+}
