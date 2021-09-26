@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import state from './component/redux/state';  
   
-  
+   
   
 ReactDOM.render( 
   <React.StrictMode>
