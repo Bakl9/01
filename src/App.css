@@ -4,7 +4,7 @@
 	display: grid;
 	grid-template-areas:
 		'over over'
-		'nav content';
+		'nav content'; 
 	grid-template-rows: 60px 1fr;  
 	grid-template-columns: 2fr 10fr;
 }     
